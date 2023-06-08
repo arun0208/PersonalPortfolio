@@ -1,5 +1,29 @@
-/* Customize the styles as per your preference */
 .home {
-    padding: 2rem;
-  }
-  
+  padding: 2rem;
+}
+
+.image {
+  height: 700px;
+  width: 700px;
+  position: absolute;
+  right: -700px;
+  -webkit-animation: slide 0.5s forwards;
+  animation: slide 1s forwards;
+}
+
+.image-container {
+  position: absolute;
+  top: 12%;
+  left: 44%;
+  overflow: hidden;
+  width: 700px;
+  height: 700px;
+}
+
+@-webkit-keyframes slide {
+  100% { right: 0; }
+}
+
+@keyframes slide {
+  100% { right: 0; }
+}

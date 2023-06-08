@@ -7,6 +7,11 @@ function Navbar() {
   return (
     <nav>
       <ul>
+      <li>
+          <a className='name' href='https://www.linkedin.com/in/arun-attri' target='_blank' rel="noreferrer">
+          Arun Sharma
+          </a>
+        </li>
         <li>
           <Link to="/">
             <FaHome /> &nbsp;Home
