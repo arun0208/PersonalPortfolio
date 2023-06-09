@@ -8,7 +8,7 @@ function Home() {
   $(document).ready(function() {
     setTimeout(function() {
       $(".btn-epic").show();
-    }, 1500);
+    }, 1000);
   });
   return (
     <div className="home">
