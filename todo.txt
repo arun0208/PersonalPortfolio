@@ -1,0 +1,4 @@
+Goal -> Complete this project by 15 june
+link -> https://itsarunsharma.netlify.app
+add typing animation on home page
+add resume download and video resume on home page
